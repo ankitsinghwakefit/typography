@@ -1,0 +1,302 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ---------------------- my css----------------------- */
+
+*,
+*::before,
+*::after {
+    font-family: 'Roboto', sans-serif;
+}
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.head {
+   background-color: #323347;
+   background-image: url(../media/banner.svg);
+   background-size: cover;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.padding {
+    padding: 20px 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    font-weight: 700;
+}
+
+.logo {
+    float: left;
+    font-weight: 700;
+}
+.navigation {
+    float: right;
+    font-weight: 500;
+}
+.head_body {
+    text-align: center;
+}
+.box_head {
+    padding: 80px 0;
+    line-height: 1.8;
+}
+h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+}
+.head_para {
+    font-size: 20px;
+    color: #E96C77;
+}
+.btn {
+    width: 220px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: #E96C77;
+    border: 2px solid #E96C77;
+    color: white;
+    font-weight: 900;
+}
+
+/* ------------ main section 1------------------ */
+
+.main_section_1 {
+    background-color: wheat;
+    padding-bottom: 80px;
+}
+.section_1_parent {
+    display: flex;
+    text-align: center;
+}
+.main_heading {
+    font-size: 30px;
+    padding-bottom: 45px;
+    font-weight: 700;
+}
+.para_main {
+    font-size: 20px;
+    line-height: 1.8;
+}
+.dot {
+    width: 60px;
+    height: 60px;
+    background-color: #E96C77;
+    border-radius: 50%;
+    margin-left: 155px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+
+}
+.dot_1 i {
+    font-size: 40px;
+    padding-right: 15px;
+}
+.section_1_main_body {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.box {
+    width: 30%;
+    height: 350px;
+    background-color: white;
+    margin: 20px 20px;
+    padding-bottom: 50px;
+}
+
+/* -----------main section 2---------------- */
+
+
+.main_section_2 {
+    background-color: #E96C77;
+    color: white;
+    padding-bottom: 70px;
+}
+.section_2_main_body {
+    text-align: center;
+    padding-top: 80px;
+}
+.para_section2 {
+    padding-bottom: 50px;
+}
+.section_2_parent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.dot2 {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(34, 31, 32);
+    border-radius: 50%;
+    margin-left: 210px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.box2 {
+    width: 40%;
+    height: 350px;
+    background-color: rgb(236, 153, 160);
+    margin: 20px 0;
+    padding-bottom: 50px;
+}
+
+/* --------------- main section-3----------- */
+
+
+.section_3_main_body {
+    text-align: center;
+}
+.section_3_parent {
+    display: flex;
+    text-align: center;
+    padding-bottom: 180px;
+}
+.heading3 {
+    padding: 80px 0;
+}
+.heading_section3 {
+    padding: 30px 0;
+}
+.para_3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.btn_section3 {
+    width: 120px;
+    height: 40px;
+}
+
+/*  ------------------ main section 4------------ */
+
+.main_section_4 {
+    background-color: rgb(190, 182, 190);
+    padding-bottom: 80px;
+}
+.section_4_main_body {
+    text-align: center;
+}
+.heading4 {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.para_section4 {
+    padding-bottom: 50px;
+}
+.section_4_parent {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    padding: 30px 30px;
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+}
+.name {
+    width: 80%;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+.email {
+    width: 80%;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+.message {
+    width: 80%;
+    margin-bottom: 15px;
+}
+.last_para {
+    font-size: 20px;
+    line-height: 1.6;
+}
+.btn_section41 {
+    background-color: #E96C77;
+    border: 2px solid #E96C77;
+    width: 100px;
+}
+.reset_btn {
+    background-color: white;
+    border: 2px solid black;
+}
+.box4 {
+    text-align: left;
+}
+i {
+    padding-right: 35px;
+}
+
+/* ------------------footer---------------- */
+
+footer {
+    background-color: rgb(161, 155, 155);
+    height: 150px;
+}
+.foot {
+    text-align: center;
+    padding-top: 50px;
+}
+.foot a {
+    border-right: 1px solid black;
+    padding-right: 35px;
+}
+.foot_para {
+    padding-top: 35px;
+}
+
+
+

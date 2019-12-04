@@ -1,0 +1,95 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -------------------My Css -------------------------- */
+
+body {
+    background-image: url("../assets/08.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 0;
+}
+.parent {
+    display: flex;
+}
+.box {
+    margin: 20px 30px;
+    width: 30%;
+    height: 300px;
+}
+.box_1 {
+    background-color: #FE3D47;
+    border-radius: 10px;
+    align-content: center;
+}
+.box_2 {
+    background-image: linear-gradient(to right,rgb(226, 127, 127),rgb(243, 24, 53));
+}
+.box_3 {
+    background-image: radial-gradient(red,rgb(240, 154, 154));
+}
+.big_box_parent {
+    background: linear-gradient(to right,rgba(226, 127, 127,.5),rgba(243, 24, 53,.5)), url("../assets/07.jpg");
+    max-width: 100%;
+    height: 400px;
+    margin: 20px 90px;
+    border-radius: 10px;  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    text-align: center;
+}
+span {
+    display: inline-block;
+    padding-top: 140px;  
+}
+
